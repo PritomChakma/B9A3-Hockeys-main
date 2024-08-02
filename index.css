@@ -3,8 +3,76 @@
 body {
   font-family: 'Manrope', sans-serif;
 }
+.org-color {
+  color: rgb(255, 66, 64);
+}
+.container {
+  padding: 3rem;
+}
+.btn-primary {
+  width: 148px;
+  height: 50px;
+  border-radius: 8px;
+  padding: 15px, 24px, 15px, 24px;
+  background-color: rgb(255, 66, 64);
+  border: none;
+  color: white;
+}
 
-nav {
-  border: 2px solid red;
+/* nav section start */
+
+.nav-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.nav-bar h3 {
+  font-size: 2.25rem;
+  font-weight: 800px;
+}
+.nav-bar-li {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  padding: 1rem;
+}
+.nav-bar-li p {
+  font-size: 1rem;
+  font-weight: 700px;
+}
+.nav-bar-btn {
+  margin: 20px 50px;
+  text-align: right;
+}
+.fa-magnifying-glass {
+  margin-right: 5px;
+}
+.nav-section-img {
   height: 550px;
+  background-image: url(Images/1.png);
+}
+
+/* .nav-section-img img {
+  position: absolute;
+  text-align: center;
+  width: 87%;
+} */
+.nav-section-img-title {
+  border-radius: 16px;
+  background-color: rgb(19, 19, 24);
+  padding: 2rem;
+  width: 450px;
+  height: 140px;
+  color: white;
+  position: absolute;
+  z-index: 1;
+  margin-top: 320px;
+  margin-left: 620px;
+}
+.nav-section-img-title h4 {
+  font-size: 24px;
+  font-weight: 800px;
+}
+.nav-section-img-title p {
+  font-size: 1rem;
+  font-weight: 500px;
 }
