@@ -21,6 +21,28 @@ body {
   color: white;
 }
 
+/* all section title font-size and font-width */
+.Hockeys-Club-section-title,
+.program-section-title,
+.question-section-header {
+  margin: 0 auto;
+  text-align: center;
+  padding: 5rem;
+}
+.Hockeys-Club-section-title h3,
+.program-section-title h3,
+.question-section-header h3 {
+  font-size: 2rem;
+  font-weight: 800px;
+}
+.Hockeys-Club-section-title p,
+.program-section-title p,
+.question-section-header p {
+  font-size: 1rem;
+  font-weight: 500px;
+}
+/*^^ all section title font-size and font-width ^^*/
+
 /* nav section start */
 
 .nav-section {
@@ -79,22 +101,6 @@ body {
 .Hockeys-Club-section {
   border: 2px solid red;
 }
-.Hockeys-Club-section-title,
-.program-section-title {
-  margin: 0 auto;
-  text-align: center;
-  padding: 5rem;
-}
-.Hockeys-Club-section-title h3,
-.program-section-title h3 {
-  font-size: 2rem;
-  font-weight: 800px;
-}
-.Hockeys-Club-section-title p,
-.program-section-title p {
-  font-size: 1rem;
-  font-weight: 500px;
-}
 
 /* program section start */
 .row-1 {
@@ -151,5 +157,36 @@ body {
   width: 60%;
   margin-top: 200px;
   margin-left: 40px;
-  /* padding: 2rem; */
+}
+
+/* Clients Question section start */
+
+.question-section {
+  border: 1px solid rgba(19, 19, 24, 0.1);
+  border-radius: 16px;
+  display: flex;
+}
+
+.question-section-img img {
+  margin: 0 auto;
+  padding: 3rem;
+}
+.question-section-title {
+  padding: 3rem;
+}
+.question-section-title h2 {
+  font-size: 20px;
+  font-weight: 700px;
+}
+.question-collect-header {
+  display: flex;
+  gap: 50px;
+}
+.fa-minus {
+  margin: auto;
+  text-align: center;
+}
+.question-collect {
+  display: flex;
+  justify-content: space-between;
 }
