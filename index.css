@@ -51,11 +51,6 @@ body {
   background-image: url(Images/1.png);
 }
 
-/* .nav-section-img img {
-  position: absolute;
-  text-align: center;
-  width: 87%;
-} */
 .nav-section-img-title {
   border-radius: 16px;
   background-color: rgb(19, 19, 24);
@@ -75,4 +70,84 @@ body {
 .nav-section-img-title p {
   font-size: 1rem;
   font-weight: 500px;
+}
+
+/* Professional Hockeys Club section start */
+
+.Hockeys-Club-section {
+  border: 2px solid red;
+}
+.Hockeys-Club-section-title,
+.program-section-title {
+  margin: 0 auto;
+  text-align: center;
+  padding: 5rem;
+}
+.Hockeys-Club-section-title h3,
+.program-section-title h3 {
+  font-size: 2rem;
+  font-weight: 800px;
+}
+.Hockeys-Club-section-title p,
+.program-section-title p {
+  font-size: 1rem;
+  font-weight: 500px;
+}
+
+/* program section start */
+.row-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* align-items: center; */
+  margin: 1rem 0;
+  gap: 1rem;
+}
+.picture-title h3,
+.picture-title h3,
+.row-2 h3 {
+  font-size: 1.75rem;
+  font-weight: 800px;
+  color: white;
+}
+.picture-title p,
+.picture-title p,
+.row-2 p {
+  font-size: 1rem;
+  font-weight: 500px;
+  color: white;
+}
+.row-1-pic-1 {
+  background-image: url(Images/2.png);
+  height: 338px;
+  border-radius: 16px;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+}
+.row-1-pic-2 {
+  background-image: url(Images/3.png);
+  height: 338px;
+  border-radius: 16px;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+}
+.picture-title,
+.picture-title {
+  position: absolute;
+  width: 35%;
+  margin-top: 80px;
+  margin-left: 20px;
+}
+.row-2 {
+  background-image: url(Images/4.png);
+  height: 450px;
+  border-radius: 16px;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+}
+.row-3-title {
+  position: absolute;
+  width: 60%;
+  margin-top: 200px;
+  margin-left: 40px;
+  /* padding: 2rem; */
 }
