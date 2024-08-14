@@ -20,24 +20,30 @@ body {
   border: none;
   color: white;
 }
+hr {
+  border: 1px dotted rgba(19, 19, 24, 0.1);
+}
 
 /* all section title font-size and font-width */
 .Hockeys-Club-section-title,
 .program-section-title,
-.question-section-header {
+.question-section-header,
+.get-in-touch-header {
   margin: 0 auto;
   text-align: center;
   padding: 5rem;
 }
 .Hockeys-Club-section-title h3,
 .program-section-title h3,
-.question-section-header h3 {
+.question-section-header h3,
+.get-in-touch-header h3 {
   font-size: 2rem;
   font-weight: 800px;
 }
 .Hockeys-Club-section-title p,
 .program-section-title p,
-.question-section-header p {
+.question-section-header p,
+.get-in-touch-header p {
   font-size: 1rem;
   font-weight: 500px;
 }
@@ -162,7 +168,7 @@ body {
 /* Clients Question section start */
 
 .question-section {
-  border: 1px solid rgba(19, 19, 24, 0.1);
+  border: 2px solid rgba(19, 19, 24, 0.1);
   border-radius: 16px;
   display: flex;
 }
@@ -174,7 +180,10 @@ body {
 .question-section-title {
   padding: 3rem;
 }
-.question-section-title h2 {
+.question-collect-header h2,
+.question-collect-title h2,
+.checkbox h2,
+.checkbox-msg h2 {
   font-size: 20px;
   font-weight: 700px;
 }
@@ -189,4 +198,122 @@ body {
 .question-collect {
   display: flex;
   justify-content: space-between;
+}
+
+/* get in touch section start */
+.get-touch-section {
+  padding: 1rem;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.get-in-touch {
+  display: flex;
+}
+.get-touch-icon {
+  width: 40%;
+}
+.icon-1 h2,
+.icon-2 h2,
+.icon-3 h2 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.icon-1 p,
+.icon-2 p,
+.icon-3 p {
+  font-weight: 200;
+}
+
+.icon-1 {
+  background-color: rgba(188, 237, 109, 0.1);
+  padding: 2rem;
+  border-radius: 18px;
+  margin-top: 20px;
+}
+.icon-2 {
+  background-color: rgba(253, 221, 95, 0.1);
+  padding: 2rem;
+  border-radius: 18px;
+  margin-top: 20px;
+}
+.icon-3 {
+  background-color: rgba(98, 156, 243, 0.1);
+  padding: 2rem;
+  border-radius: 18px;
+  margin-top: 20px;
+}
+
+.get-touch-information {
+  padding: 3rem;
+}
+.information-checkbox {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.checkbox input {
+  width: 324px;
+  height: 64px;
+  border-radius: 12px;
+  background-color: rgba(19, 19, 24, 0.03);
+  border: none;
+}
+.checkbox-msg input {
+  width: 100%;
+  height: 300px;
+  border-radius: 12px;
+  background-color: rgba(19, 19, 24, 0.03);
+  border: none;
+}
+.get-in-btn {
+  width: 672px;
+  height: 57px;
+  border-radius: 12px;
+  padding: 15px, 24px, 15px, 24px;
+  background-color: rgb(255, 66, 64);
+  border: none;
+  color: white;
+  margin-top: 15px;
+}
+
+/* social medial section start */
+footer {
+  background-color: black;
+  color: white;
+}
+.social-media {
+  max-width: 1170px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 5rem;
+  background-color: rgba(19, 19, 24, 0.03);
+}
+.social-media h2 {
+  font-size: 24px;
+  font-weight: 800;
+}
+.social-media-icon {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  gap: 15px;
+}
+
+/* footer sction start */
+.touch-icon {
+  display: flex;
+}
+
+.footer-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 0 auto;
+  gap: 20px;
+  text-align: center;
+}
+.touch-icon {
+  margin-top: 15px;
+  gap: 10px;
 }
